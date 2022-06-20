@@ -5,14 +5,18 @@
 
 main:
   social:
-    - title: "Pinterest"
-      icon: "fab fa-pinterest"
-      url: "https://www.pinterest.com/"
-    - title: "Instagram"
-      icon: "fab fa-instagram"
-      url: "https://instagram.com/"
+    - title: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/andyDA"
+    - title: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/aobreja"
     - title: "Dribbble"
       icon: "fab fa-dribbble"
-      url: "https://dribbble.com/"
-  text1: "E: andy@da.md"
-  text2: "T: +1 (234) 567 80 98"
+      url: "https://dribbble.com/AndyDA"
+    - title: "Behance"
+      icon: "fab fa-behance"
+      url: "https://www.behance.net/andy_da"
+  text1: "e-mail: andy@da.md"
+  text2: "phone: UK +44 74-888-11-737<br />
+  phone: IT +39 38-902-32-042"
