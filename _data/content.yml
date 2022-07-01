@@ -22,11 +22,12 @@ about:
 
     - label: "Phone IT"
       value: "+39 38-902-32-042"
-    - label: "Phone UK"
-      value: "+44 74-888-11-737"
 
     - label: "E-mail"
       value: "andy@da.md"
+
+    - label: "Phone UK"
+      value: "+44 74-888-11-737"
 
   download:
     text: "Download CV"
