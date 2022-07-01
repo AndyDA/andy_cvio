@@ -12,16 +12,18 @@ about:
       value: "46"
 
     - label: "Residence"
-      value: "RO"
+      value: "IT"
 
     - label: "Freelance"
       value: "Available"
 
     - label: "Address"
-      value: "Romania"
+      value: "Italia, Veneto, Verona"
 
-    - label: "Phone"
-      value: "+1 256 254 84 56"
+    - label: "Phone IT"
+      value: "+39 38-902-32-042"
+    - label: "Phone UK"
+      value: "+44 74-888-11-737"
 
     - label: "E-mail"
       value: "andy@da.md"
