@@ -41,7 +41,7 @@ services:
       name: "Web Development"
       text: "Modern and mobile-ready website that will help you reach all of your marketing."
 
-    - icon: "fa-brands fa-drupal"   
+    - icon: "fas fa-drupal"   
       name: "Music Writing"
       text: "Music copying, writing, creating, transcription, arranging and services."
 
