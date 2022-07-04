@@ -21,10 +21,10 @@
 # basic settings
 title: "ANDY - Creative Soluions"
 email: "andy@da.md"
-description: "Jekyll Resume / CV / vCard / Portfolio / Personal template"
+description: "Andy personal Website"
 author: "Andy"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://andy.da.md" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
 
 # paginations & permalinks
