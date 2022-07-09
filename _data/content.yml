@@ -6,16 +6,16 @@
 ### About [ about ]
 about:
   image: "assets/img/man2.jpg"
-  text: "<p>Hello! I’m Obreja Adrian. Web designer from EU, Veneto-Verona. I have rich experience in web site design and building, also I am good at Drupal. I love to talk with you about our unique.</p>"
+  text: "<p>Hello! I’m Obreja Adrian. Web designer from EU, with passion for new technologies. Love to work on front-end, make site design, building them and satisfied when pixels come to life. Also I love Drupal, that have a special place in my heart. Clean and minimalist web design, clean code and fast loading websites are three of my base principles.</p>"
   list:
-    - label: "Age"
-      value: "46"
+    # - label: "Age"
+    #   value: "46"
 
     - label: "Residence"
       value: "IT"
 
     - label: "Freelance"
-      value: "Available"
+      value: "Available" #nonavailable
 
     - label: "Address"
       value: "Italia, Veneto, Verona"
@@ -31,7 +31,7 @@ about:
 
   download:
     text: "Download CV"
-    link: "https://drive.google.com/"
+    link: "https://drive.google.com/file/d/1aKSyyItpTPVNTbnhnAp8M2SkIbkPpg9R/view?usp=sharing"
 
 ### Services [ services ]
 services:
@@ -42,8 +42,8 @@ services:
       text: "Modern and mobile-ready website that will help you reach all of your marketing."
 
     - icon: "fab fa-drupal"   
-      name: "Music Writing"
-      text: "Music copying, writing, creating, transcription, arranging and services."
+      name: "Drupal and e-commerce"
+      text: "Unique customer experiences, complex checkout flows, and deep integrations into payment and fulfillment vendors."
 
     - icon: "fas fa-ad"
       name: "Advetising"

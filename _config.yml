@@ -26,6 +26,8 @@ author: "Andy"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://andy.da.md" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
+twitter_username: andyDA
+github_username: AndyDA
 
 # paginations & permalinks
 paginate: 9
@@ -82,4 +84,6 @@ exclude:
 sass:
   style: compressed
 
-markdown:  kramdown
+markdown: kramdown
+highlighter: rouge
+input: GFM

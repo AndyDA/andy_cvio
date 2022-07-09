@@ -1,0 +1,26 @@
+/* _sass/_post.css */
+  pre.highlight > button:active,
+  pre.highlight > button:focus {
+    opacity: 1;
+  }
+
+  pre.highlight {
+    position: relative;
+    &:hover {
+      button {
+        opacity: 1;
+      }
+    }
+    button {
+      opacity: 0;
+      padding: 0 30px;
+      width: 110px;
+      text-align: center;
+      height: 38px;
+      border: 1px solid white;
+      border-radius: 3px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  }

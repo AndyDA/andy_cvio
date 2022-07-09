@@ -19,4 +19,5 @@ main:
       url: "https://www.behance.net/andy_da"
   text1: "e-mail: andy@da.md"
   text2: "phone: UK +44 74-888-11-737<br />
-  phone: IT +39 38-902-32-042"
+  phone: IT +39 38-902-32-042<br />
+  Hosted by Github. Served by Jekyll."
