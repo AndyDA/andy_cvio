@@ -157,27 +157,27 @@ skills:
       title: "Languages Skills"
       items:
         - label: "English"
-          value: "90" #0-100 progress in %
+          value: "80" #0-100 progress in %
 
-        - label: "German"
-          value: "70" #0-100 progress in %
+        - label: "Romanian"
+          value: "100" #0-100 progress in %
 
         - label: "Italian"
-          value: "55" #0-100 progress in %
+          value: "30" #0-100 progress in %
 
-        - label: "French"
-          value: "85" #0-100 progress in %
+        - label: "Russian"
+          value: "90" #0-100 progress in %
 
     - type: "circles" #skills progress type - default, dotted, circles, list
       title: "Coding Skills"
       items:
-        - label: "WordPress"
+        - label: "Drupal"
           value: "95" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
+        - label: "PHP/MYSQL"
           value: "75" #0-100 progress in %
 
-        - label: "Angular / JavaScript"
+        - label: "React,Vue.js / JavaScript"
           value: "85" #0-100 progress in %
 
         - label: "HTML / CSS"
@@ -215,46 +215,46 @@ facts:
   title: "Interests"
   items:
     - icon: "fas fa-baseball-ball"
-      name: "Basketball"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      name: "Minifootball"
+      text: "The term “minifootball” means small sided football open for amateur players. "
 
     - icon: "fas fa-campground"
-      name: "Camping"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      name: "Van Camping"
+      text: "If you don't know where you are going, any road will get you there"
 
     - icon: "fas fa-chess-knight"
       name: "Chess"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      text: "“Chess is a war over the board. The object is to crush the opponent's mind.” – Bobby Fischer"
 
     - icon: "fas fa-headphones"
       name: "Music"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      text: "One good thing about music, when it hits you, you feel no pain. – Bob Marley"
       
 ### Team [ team ]
 team:
-  title: "Our Team"
+  title: "Some Pictures"
   items:
     - image: "assets/img/team/team1.jpg"
-      name: "Alejandro Abeyta"
-      role: "Web Developer"
-      social:
-        - url: "https://www.pinterest.com/"
-          icon: "fab fa-pinterest"
-        - url: "https://www.instagram.com/"
-          icon: "fab fa-instagram"
-        - url: "https://dribbble.com/"
-          icon: "fab fa-dribbble"
+      # name: "Alejandro Abeyta"
+      # role: "Web Developer"
+      # social:
+      #   - url: "https://www.pinterest.com/"
+      #     icon: "fab fa-pinterest"
+      #   - url: "https://www.instagram.com/"
+      #     icon: "fab fa-instagram"
+      #   - url: "https://dribbble.com/"
+      #     icon: "fab fa-dribbble"
           
     - image: "assets/img/team/team2.jpg"
-      name: "Peter Green"
-      role: "Back-end Developer"
-      social:
-        - url: "https://www.pinterest.com/"
-          icon: "fab fa-pinterest"
-        - url: "https://www.instagram.com/"
-          icon: "fab fa-instagram"
-        - url: "https://dribbble.com/"
-          icon: "fab fa-dribbble"
+      # name: "Peter Green"
+      # role: "Back-end Developer"
+      # social:
+      #   - url: "https://www.pinterest.com/"
+      #     icon: "fab fa-pinterest"
+      #   - url: "https://www.instagram.com/"
+      #     icon: "fab fa-instagram"
+      #   - url: "https://dribbble.com/"
+      #     icon: "fab fa-dribbble"
           
 ### Testimonials [ testimonials ]
 testimonials:
