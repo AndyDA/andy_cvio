@@ -308,11 +308,11 @@ contacts_info:
 
     - label: "Email"
       icon:  "fas fa-envelope"
-      value: "<a href='mailto:steve-pearson@gmail.com'>steve-pearson@gmail.com</a>"
+      value: "<a href='mailto:andy@da.md'>andy@da.md</a>"
 
-    - label: "Address"
-      icon: "fas fa-map-marker-alt"
-      value: "2621 W Pico Blvd, Los Angeles"
+    # - label: "Address"
+    #   icon: "fas fa-map-marker-alt"
+    #   value: "2621 W Pico Blvd, Los Angeles"
     
     - label: "Freelance Available"
       icon: "fas fa-user-tie"
