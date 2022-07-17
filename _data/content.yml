@@ -304,7 +304,7 @@ contacts_info:
   list:
     - label: "Phone"
       icon: "fas fa-phone"
-      value: "+ (231) 456 67 89"
+      value: "UK +44 74-888-11-737"
 
     - label: "Email"
       icon:  "fas fa-envelope"
@@ -316,7 +316,7 @@ contacts_info:
     
     - label: "Freelance Available"
       icon: "fas fa-user-tie"
-      value: "I am available for Freelance hire"
+      value: "I am available for freelance hire"
 
 ### Contact Form [ contacts-form ]
 contacts_form:
