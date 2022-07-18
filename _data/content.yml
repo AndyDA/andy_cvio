@@ -6,7 +6,7 @@
 ### About [ about ]
 about:
   image: "assets/img/man2.jpg"
-  text: "<p>Hello! I’m Obreja Adrian. Web designer from EU, with passion for new technologies. Love to work on front-end, make site design, building them and satisfied when pixels come to life. Also I love Drupal, that have a special place in my heart. Clean and minimalist web design, clean code and fast loading websites are three of my base principles.</p>"
+  text: "<p>Hello! I’m Obreja Adrian. Web designer from EU, with passion for new technologies. Love to work on front-end, make site design, building them and satisfied when pixels come to “life”. Also I love Drupal, that have a special place in my heart. Clean and minimalist web design, clean code and fast loading websites are three of my base principles.</p>"
   list:
     # - label: "Age"
     #   value: "46"
@@ -109,23 +109,37 @@ resume:
     title: "Experience"
     items:
       - year: "2019 - Present"
-        name: "Freelance"
+        name: "Freelance | Independent Developer"
         text: "Collaborate with creative and development teams on the execution of ideas."
 
       - year: "2013 - 2019"
-        name: "librarie.md | Co-Founder"
+        name: "librarie.md| Project Manager, Founder"
         text: "Technology Company which focuses on e-commerce. Online bookstore for books, ebooks, music, movies & toys."
 
-      - year: "2009 - Present"
-        name: "DesignART S.R.L Manager"
-        text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet"
-        
+      - year: "May 2000 - Present"
+        name: "DesignART S.R.L | Art Director, Founder"
+        text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet. <br><br>Responsible for maintaining a creative culture, monitoring assigned properties to ensure consistency of creative direction, identity and quality are maintained.
+Strong ideas generation, with a commercial focus. Working Experience with printing, publishing, large format media, advertising and marketing communications companies in across EU & Moldova having anchored creative desing of magazines, news papers, directories corporate profiles, branding & marketing campaigns elements including those for events and exhibitions."
+
+      - year: "Sep 1997 - Feb 2000"
+        name: "Document's World S.R.L | Director, Co-Founder"
+        text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet."
+
   education:
     title: "Education"
     items:
       - year: "2022"
         name: "Learning Path : Become a DevOps Engineer : LinkedIn Learning"
         text: "Learning Path that helps you gain skills to work in DevOps. Learn about infrastucture automation, lean and agile transformation, security, monitoring, and site reliability engineering."
+
+      - year: "2020 - Present"
+        name: "freeCodeCamp.org | Learn to code for free with millions of other people around the world."
+        text: " - Responsive Web Design.<br>
+                - JavaScript Algorithms and Data Structures.<br>
+                - Front End Development Libraries.<br>
+                - Data Visualization with D3.<br>
+                - Back End Development and APIs.<br>
+                - Scientific Computing with Python."
 
       - year: "2015 - 2016"
         name: "Drupal 8 Enterprise Web Development | Drupalize.Me"
@@ -236,7 +250,7 @@ facts:
       
 ### Team [ team ]
 team:
-  title: "Skill Pictures"
+  title: "Cloud Experience"
   items:
     - image: "assets/img/skills/cloud-service_skills.jpg"
       # name: "Alejandro Abeyta"

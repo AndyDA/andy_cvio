@@ -160,6 +160,7 @@ lts/gallium -> v16.14.0
 ```
 This shows the currently active version on the first line (`-> v16.14.0`), followed by some named aliases and the versions that those aliases point to.
 > **Note:** if you also have a version of Node.js installed through `apt`, you may see a `system` entry here. You can always activate the system-installed version of Node using `nvm use system`.
+
 We can install a release based on these aliases as well. For instance, to install `fermium`, run the following:
 ```bash
   $ nvm install lts/fermium
