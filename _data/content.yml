@@ -49,17 +49,17 @@ services:
       name: "Advetising"
       text: "Advertising services include television, radio, print, mail, and web apps."
 
-    - icon: "fas fa-gamepad"
-      name: "Game Development"
-      text: "Developing memorable and unique mobile android, ios and video games."
+    - icon: "fa fa-print"
+      name: "Printing"
+      text: "Graphic design for printing, web, multimedia."
 
     - icon: "fas fa-camera"
       name: "Photography"
       text: "Our in-house photography services team made up of professional photographers."
 
-    - icon: "fas fa-mobile-alt"
-      name: "Android Application"
-      text: "Games, playing music, handle network transactions, interacting content etc."
+    - icon: "fa fa-server"
+      name: "Server maintenance"
+      text: "Process of keeping a server software updated and running so that a computer network can operate smoothly and avoid downtime or loss of data."
       
 # ### Pricing [ pricing ]
 # pricing:
@@ -110,19 +110,23 @@ resume:
     items:
       - year: "2019 - Present"
         name: "Freelance | Independent Developer"
+        jobs: "Graphic & Web Designer / Web Developer"
         text: "Collaborate with creative and development teams on the execution of ideas."
 
       - year: "2013 - 2019"
         name: "librarie.md| Project Manager, Founder"
+        jobs: "Project Manager"
         text: "Technology Company which focuses on e-commerce. Online bookstore for books, ebooks, music, movies & toys."
 
       - year: "May 2000 - Present"
         name: "DesignART S.R.L | Art Director, Founder"
+        jobs: "Art Director"
         text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet. <br><br>Responsible for maintaining a creative culture, monitoring assigned properties to ensure consistency of creative direction, identity and quality are maintained.
 Strong ideas generation, with a commercial focus. Working Experience with printing, publishing, large format media, advertising and marketing communications companies in across EU & Moldova having anchored creative desing of magazines, news papers, directories corporate profiles, branding & marketing campaigns elements including those for events and exhibitions."
 
       - year: "Sep 1997 - Feb 2000"
         name: "Document's World S.R.L | Director, Co-Founder"
+        jobs: "Graphic Design Assistant"
         text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet."
 
   education:
@@ -130,7 +134,7 @@ Strong ideas generation, with a commercial focus. Working Experience with printi
     items:
       - year: "2022"
         name: "Learning Path : Become a DevOps Engineer : LinkedIn Learning"
-        text: "Learning Path that helps you gain skills to work in DevOps. Learn about infrastucture automation, lean and agile transformation, security, monitoring, and site reliability engineering."
+        text: "Learning Path that helps to gain skills to work in DevOps. Learned about infrastucture automation, lean and agile transformation, security, monitoring, and site reliability engineering."
 
       - year: "2020 - Present"
         name: "freeCodeCamp.org | Learn to code for free with millions of other people around the world."
@@ -276,47 +280,47 @@ team:
 
     - image: "assets/img/skills/technology_skills.jpg"
 
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  items:
-    - image: "assets/img/testimonials/rev1.jpg"
-      name: "Helen Floyd"
-      role: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# ### Testimonials [ testimonials ]
+# testimonials:
+#   title: "Testimonials"
+#   items:
+#     - image: "assets/img/testimonials/rev1.jpg"
+#       name: "Helen Floyd"
+#       role: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       
-    - image: "assets/img/testimonials/rev1.jpg"
-      name: "Helen Floyd"
-      role: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "assets/img/testimonials/rev1.jpg"
+#       name: "Helen Floyd"
+#       role: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-### Clients [ clients ]
-clients:
-  title: "Clients"
-  items:
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client1.png"
+# ### Clients [ clients ]
+# clients:
+#   title: "Clients"
+#   items:
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client1.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client2.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client2.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client3.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client3.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client4.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client4.png"
       
-### Custom Text [ text ]
-text:
-  title: "Custom Text"
-  text: "
-        <p>
-            Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
-        </p>
-        <p>
-            Here choose yourself like that, without any looking back, do your personal, home, small fashion, and all will be well.
-        </p>
-        "
+# ### Custom Text [ text ]
+# text:
+#   title: "Custom Text"
+#   text: "
+#         <p>
+#             Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+#         </p>
+#         <p>
+#             Here choose yourself like that, without any looking back, do your personal, home, small fashion, and all will be well.
+#         </p>
+#         "
 
 ### Contact Info [ contacts-info ]
 contacts_info:
