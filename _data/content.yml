@@ -12,13 +12,13 @@ about:
     #   value: "46"
 
     - label: "Residence"
-      value: "IT"
+      value: "Romania, Moldova"
 
     - label: "Freelance"
       value: "Available" #nonavailable
 
     - label: "Address"
-      value: "Italia, Veneto, Verona"
+      value: "heart of Europe"
 
     - label: "Phone IT"
       value: "+39 38-902-32-042"
@@ -31,7 +31,7 @@ about:
 
   download:
     text: "Download CV"
-    link: "https://drive.google.com/file/d/1aKSyyItpTPVNTbnhnAp8M2SkIbkPpg9R/view?usp=sharing"
+    link: "https://www.dropbox.com/s/k06agipxn94kiz6/Resume%20-%20Andy.pdf?dl=0"
 
 ### Services [ services ]
 services:

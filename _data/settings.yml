@@ -6,6 +6,7 @@
 settings:
   logo_text: "Adrian <strong>Obreja</strong>"
   logo_hover_text: "Download <strong>CV</strong>"
+  link: "https://www.dropbox.com/s/k06agipxn94kiz6/Resume%20-%20Andy.pdf?dl=0"
   quick_colors: "" # select quick color schemes: "beige", "blue", "brown", "green_light", "green", "orange", "purple", "red", "yellow_light", "yellow". If empty colors taken from _sass/ryancv/settings.scss
 
 ### Portfolio Filters Settings
