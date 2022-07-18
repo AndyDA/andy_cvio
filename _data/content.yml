@@ -61,47 +61,47 @@ services:
       name: "Android Application"
       text: "Games, playing music, handle network transactions, interacting content etc."
       
-### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  items:
-    - icon: "fas fa-star"
-      name: "Basic"
-      price: "39"
-      price_before: "$"
-      price_after: "hour"
-      list:
-        - value: "Web Development"
-          disable: "no"
-        - value: "Advetising"
-          disable: "no"
-        - value: "Game Development"
-          disable: "no"
-        - value: "Music Writing"
-          disable: "yes"
-        - value: "Photography"
-          disable: "yes"
-      button: "Buy Now"
-      link: "contact/"
+# ### Pricing [ pricing ]
+# pricing:
+#   title: "Pricing"
+#   items:
+#     - icon: "fas fa-star"
+#       name: "Basic"
+#       price: "39"
+#       price_before: "$"
+#       price_after: "hour"
+#       list:
+#         - value: "Web Development"
+#           disable: "no"
+#         - value: "Advetising"
+#           disable: "no"
+#         - value: "Game Development"
+#           disable: "no"
+#         - value: "Music Writing"
+#           disable: "yes"
+#         - value: "Photography"
+#           disable: "yes"
+#       button: "Buy Now"
+#       link: "contact/"
           
-    - icon: "fas fa-rocket"
-      name: "Premium"
-      price: "59"
-      price_before: "$"
-      price_after: "hour"
-      list:
-        - value: "Web Development"
-          disable: "no"
-        - value: "Advetising"
-          disable: "no"
-        - value: "Game Development"
-          disable: "no"
-        - value: "Music Writing"
-          disable: "no"
-        - value: "Photography"
-          disable: "no"
-      button: "Buy Now"
-      link: "contact/"
+#     - icon: "fas fa-rocket"
+#       name: "Premium"
+#       price: "59"
+#       price_before: "$"
+#       price_after: "hour"
+#       list:
+#         - value: "Web Development"
+#           disable: "no"
+#         - value: "Advetising"
+#           disable: "no"
+#         - value: "Game Development"
+#           disable: "no"
+#         - value: "Music Writing"
+#           disable: "no"
+#         - value: "Photography"
+#           disable: "no"
+#       button: "Buy Now"
+#       link: "contact/"
 
 ### Resume [ resume ]
 resume:
@@ -123,17 +123,21 @@ resume:
   education:
     title: "Education"
     items:
-      - year: "2006 - 2008"
-        name: "Art University of New York"
-        text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      - year: "2022"
+        name: "Learning Path : Become a DevOps Engineer : LinkedIn Learning"
+        text: "Learning Path that helps you gain skills to work in DevOps. Learn about infrastucture automation, lean and agile transformation, security, monitoring, and site reliability engineering."
 
-      - year: "2005 - 2006"
-        name: "Programming Course"
-        text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      - year: "2015 - 2016"
+        name: "Drupal 8 Enterprise Web Development | Drupalize.Me"
+        text: "Leading provider of Drupal training services. Premium online tutorial library that has trusted thousands of individuals and organizations around the world."
 
-      - year: "2004 - 2005"
-        name: "Web Design Course"
-        text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      - year: "2015"
+        name: "CS50: Introduction to Computer Science | Harvard University"
+        text: "An introduction to the intellectual enterprises of computer science and the art of programming."
+
+      - year: "2008"
+        name: "Продвинутый HTML и CSS | HTML Academy"
+        text: "Знакомство с продвинутыми возможностями HTML: формами, таблицами, элементами для проигрывания медиа. Детальное разборка важных механизмов CSS."
 
 ### Skills [ skills ]
 skills:
