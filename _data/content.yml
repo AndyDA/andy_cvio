@@ -108,17 +108,17 @@ resume:
   experience:
     title: "Experience"
     items:
-      - year: "2013 - Present"
-        name: "Art Director - Facebook Inc"
+      - year: "2019 - Present"
+        name: "Freelance"
         text: "Collaborate with creative and development teams on the execution of ideas."
 
-      - year: "2011 - 2012"
-        name: "Front-end Developer - Google Inc"
-        text: "Monitored technical aspects of the front-end delivery for several projects."
+      - year: "2013 - 2019"
+        name: "librarie.md | Co-Founder"
+        text: "Technology Company which focuses on e-commerce. Online bookstore for books, ebooks, music, movies & toys."
 
-      - year: "2009 - 2010"
-        name: "Senior Developer - Abc Inc"
-        text: "Optimize website performance using latest technology."
+      - year: "2009 - Present"
+        name: "DesignART S.R.L Manager"
+        text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet"
         
   education:
     title: "Education"
