@@ -12,20 +12,30 @@ settings:
 ### Portfolio Filters Settings
 portfolio:
   filters:
-    - name: "Video"
-      slug: "f-video"
+    # - name: "Video"
+    #   slug: "f-video"
 
-    - name: "Music"
-      slug: "f-music"
+    # - name: "Music"
+    #   slug: "f-music"
 
-    - name: "Links"
-      slug: "f-link"
+    - name: "Graphic Desing"
+      slug: "f-grad"
 
-    - name: "Image"
-      slug: "f-image"
+    - name: "Web Design"
+      slug: "f-webd"
 
-    - name: "Gallery"
-      slug: "f-gallery"
+    - name: "Logofolio"
+      slug: "f-logo"
 
-    - name: "Content"
-      slug: "f-content"
+
+    # - name: "Image"
+    #   slug: "f-image"
+
+    # - name: "Gallery"
+    #   slug: "f-gallery"
+
+    # - name: "Content"
+    #   slug: "f-content"
+
+    # - name: "Links"
+    #   slug: "f-link"

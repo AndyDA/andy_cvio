@@ -106,6 +106,91 @@ layout: default
             </div>
             {% endif %}
 
+            <!-- add Graphic Design on gallery base -->
+            {% if work.type == 'graphic' %}            
+            <div class="box-item {{ work.category_slug }}">
+                <div class="image">
+                    <a href="#gallery-{{ work.id | replace: '/', '-' }}" class="has-popup-gallery hover-animated">
+                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" />
+                        <span class="info circle">
+                            <span class="centrize full-width">
+                                <span class="vertical-center">
+                                    <span class="icon fas fa-images"></span>
+                                    <span class="desc">
+                                        <span class="category">{{ work.category }}</span>
+                                        <span class="name">{{ work.title }}</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <div id="gallery-{{ work.id | replace: '/', '-' }}" class="mfp-hide">
+                        {% assign gallery = work.gallery | split: "," %}
+                        {% for img in gallery %}
+                        <a href="{{ img | relative_url }}"></a>
+                        {% endfor %}
+                    </div>	
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- add Web Desing on gallery base -->
+            {% if work.type == 'web' %}            
+            <div class="box-item {{ work.category_slug }}">
+                <div class="image">
+                    <a href="#gallery-{{ work.id | replace: '/', '-' }}" class="has-popup-gallery hover-animated">
+                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" />
+                        <span class="info circle">
+                            <span class="centrize full-width">
+                                <span class="vertical-center">
+                                    <span class="icon fas fa-images"></span>
+                                    <span class="desc">
+                                        <span class="category">{{ work.category }}</span>
+                                        <span class="name">{{ work.title }}</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <div id="gallery-{{ work.id | replace: '/', '-' }}" class="mfp-hide">
+                        {% assign gallery = work.gallery | split: "," %}
+                        {% for img in gallery %}
+                        <a href="{{ img | relative_url }}"></a>
+                        {% endfor %}
+                    </div>	
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- add Web Desing on gallery base -->
+            {% if work.type == 'logo' %}            
+            <div class="box-item {{ work.category_slug }}">
+                <div class="image">
+                    <a href="#gallery-{{ work.id | replace: '/', '-' }}" class="has-popup-gallery hover-animated">
+                        <img src="{{ work.image | relative_url }}" class="wp-post-image" alt="{{ work.title }}" />
+                        <span class="info circle">
+                            <span class="centrize full-width">
+                                <span class="vertical-center">
+                                    <span class="icon fas fa-images"></span>
+                                    <span class="desc">
+                                        <span class="category">{{ work.category }}</span>
+                                        <span class="name">{{ work.title }}</span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <div id="gallery-{{ work.id | replace: '/', '-' }}" class="mfp-hide">
+                        {% assign gallery = work.gallery | split: "," %}
+                        {% for img in gallery %}
+                        <a href="{{ img | relative_url }}"></a>
+                        {% endfor %}
+                    </div>	
+                </div>
+            </div>
+            {% endif %}
+            <!-- final of the block -->
+
             {% if work.type == 'video' %}            
             <div class="box-item {{ work.category_slug }}">
                 <div class="image">
