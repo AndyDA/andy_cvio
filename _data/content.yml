@@ -236,9 +236,9 @@ facts:
       
 ### Team [ team ]
 team:
-  title: "Some Pictures"
+  title: "Skill Pictures"
   items:
-    - image: "assets/img/team/team1.jpg"
+    - image: "assets/img/skills/cloud-service_skills.jpg"
       # name: "Alejandro Abeyta"
       # role: "Web Developer"
       # social:
@@ -249,7 +249,7 @@ team:
       #   - url: "https://dribbble.com/"
       #     icon: "fab fa-dribbble"
           
-    - image: "assets/img/team/team2.jpg"
+    - image: "assets/img/skills/programmes_os_skills.jpg"
       # name: "Peter Green"
       # role: "Back-end Developer"
       # social:
@@ -259,7 +259,9 @@ team:
       #     icon: "fab fa-instagram"
       #   - url: "https://dribbble.com/"
       #     icon: "fab fa-dribbble"
-          
+
+    - image: "assets/img/skills/technology_skills.jpg"
+
 ### Testimonials [ testimonials ]
 testimonials:
   title: "Testimonials"
