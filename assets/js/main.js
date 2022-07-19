@@ -358,10 +358,12 @@
 		/*
 			Portfolio items parallax
 		*/
-		if($('.portfolio-items').length){
-			var s_parallax = document.getElementsByClassName('wp-post-image');
-			new simpleParallax(s_parallax);
-		}
+		// Desactivate paralax becouse I don't like it
+		
+		// if($('.portfolio-items').length){
+		// 	var s_parallax = document.getElementsByClassName('wp-post-image');
+		// 	new simpleParallax(s_parallax);
+		// }
 
 	});
 
