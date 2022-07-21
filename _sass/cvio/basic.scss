@@ -746,9 +746,10 @@ ul ul, ol ol, ul ol, ol ul {
 
 /* - Code */
 code {
-	font-family: $default_font;
+	// font-family: $default_font;
+	font-family: 'Courier New', Courier, Monospace;
 	padding: 0 4px;
-	font-style: italic;
+	// font-style: italic;
 	color: #999;
 	text-decoration: none;
 	display: inline-block;
