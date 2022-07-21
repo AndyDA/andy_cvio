@@ -3,13 +3,12 @@ layout: post
 title: "How To Install Node.js on Ubuntu 22.04"
 date: 2022-02-08
 category:
-  - Node.js
+  - NodeJS
   - Ubuntu
 image: assets/img/blog/ubuntu_nodejs.webp
 author: Andy
-tags: Ubuntu, JavaScript, Node.js
+tags: Ubuntu JavaScript NodeJS
 ---
-
 #### Introduction
 
 [Node.js][nodejs-org] is a JavaScript runtime for server-side programming. It allows developers to create scalable backend functionality using JavaScript, a language many are already familiar with from browser-based web development.
