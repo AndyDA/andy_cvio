@@ -8,13 +8,14 @@ category:
 image: assets/img/blog/ubuntu_nodejs.webp
 author: Andy
 tags: Ubuntu JavaScript NodeJS
+excerpt_separator: <!--more-->
 ---
 #### Introduction
 
 [Node.js][nodejs-org] is a JavaScript runtime for server-side programming. It allows developers to create scalable backend functionality using JavaScript, a language many are already familiar with from browser-based web development.
 
 In this guide, we will show you three different ways of getting Node.js installed on an Ubuntu 22.04 server:
-
+<!--more-->
  * using apt to install the nodejs package from Ubuntu’s default software repository
  * using apt with an alternate PPA software repository to install specific versions of the nodejs package
  * installing nvm, the Node Version Manager, and using it to install and manage multiple versions of Node.js

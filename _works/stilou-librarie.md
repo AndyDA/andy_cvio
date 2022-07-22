@@ -1,7 +1,7 @@
 ---
 title: Stilou "librarie.md"
-category: Logofolio
-category_slug: f-logo
+category: Logo
+category_slug: f-brand
 type: image
 image: assets/img/works/stilou_librarie.jpg
 ---

@@ -24,9 +24,17 @@ portfolio:
     - name: "Web Design"
       slug: "f-webd"
 
-    - name: "Logofolio"
+    - name: "Branding Desing"
+      slug: "f-brand"
+
+    - name: "Mockup"
+      slug: "f-mockup"
+
+    - name: "Logo"
       slug: "f-logo"
 
+    - name: "Web Development"
+      slug: "f-wdev"
 
     # - name: "Image"
     #   slug: "f-image"

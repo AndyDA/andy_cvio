@@ -8,11 +8,12 @@ category:
 image: assets/img/blog/nodejs-with-docker.png
 author: Andy
 tags: Ubuntu Applicaions NodeJS Docker
+excerpt_separator: <!--more-->
 ---
 #### Introduction
 
 The [Docker][Docker] platform allows developers to package and run applications as containers. A container is an isolated process that runs on a shared operating system, offering a lighter weight alternative to virtual machines. Though containers are not new, they offer a number of benefits — including process isolation and environment standardization — that are growing in importance as more developers use distributed application architectures.
-
+<!--more-->
 When building and scaling an application with Docker, the starting point is typically creating an image for your application, which you can then run in a container. The image includes your application code, libraries, configuration files, environment variables, and runtime. Using an image ensures that the environment in your container is standardized and contains only what is necessary to build and run your application.
 
 In this tutorial, you will create an application image for a static website that uses the [Express][Express] and [Bootstrap][Bootstrap] frameworks. You will then build a container using that image and push it to [Docker Hub][Docker Hub] for future use. Finally, you will pull the stored image from your Docker Hub repository and build another container, demonstrating how you can recreate and scale your application.
