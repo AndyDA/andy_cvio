@@ -223,6 +223,24 @@ skills:
         - label: "Website hosting"
           value: "" #0-100 progress in %
 
+        - label: "Wireframing & Prototypig"
+          value: "" #0-100 progress in %
+
+        - label: "Interaction Designs"
+          value: "" #0-100 progress in %
+
+        - label: "User Interface Designs"
+          value: "" #0-100 progress in %
+
+        - label: "Dashboard Designs"
+          value: "" #0-100 progress in %
+
+        - label: "SaaS & CRM Software Designs"
+          value: "" #0-100 progress in %
+
+        - label: "Animated Prototypes"
+          value: "" #0-100 progress in %
+
         - label: "Logos & Branding"
           value: "" #0-100 progress in %
 
