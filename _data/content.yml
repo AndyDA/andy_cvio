@@ -6,7 +6,7 @@
 ### About [ about ]
 about:
   image: "assets/img/man2.jpg"
-  text: "<p>Hello! I’m Obreja Adrian. Web designer from EU, with passion for new technologies. Love to work on front-end, make site design, building them and satisfied when pixels come to “life”. Also I love Drupal, that have a special place in my heart. Clean and minimalist web design, clean code and fast loading websites are three of my base principles.</p>"
+  text: "<p>Hello! I’m Obreja Adrian. Web designer from EU, with passion for new technologies. Love to work on front-end, make site design, building them and satisfied when pixels come to “life”. Also I love Drupal, that have a special place in my heart. Clean and minimalist web design, clean code and fast loading websites are three of my base principles. As a daily routine, I try to remain relevant in the technology industry: reading technical blogs, books and listening to a lot of podcasts.</p>"
   list:
     # - label: "Age"
     #   value: "46"
@@ -164,10 +164,10 @@ skills:
       title: "Design Skills"
       items:
         - label: "Web Design"
-          value: "70" #0-100 progress in %
+          value: "90" #0-100 progress in %
 
         - label: "Illustrations"
-          value: "90" #0-100 progress in %
+          value: "50" #0-100 progress in %
 
         - label: "Photoshop"
           value: "75" #0-100 progress in %
@@ -179,7 +179,7 @@ skills:
       title: "Languages Skills"
       items:
         - label: "English"
-          value: "80" #0-100 progress in %
+          value: "60" #0-100 progress in %
 
         - label: "Romanian"
           value: "100" #0-100 progress in %
@@ -194,16 +194,16 @@ skills:
       title: "Coding Skills"
       items:
         - label: "Drupal"
-          value: "95" #0-100 progress in %
+          value: "60" #0-100 progress in %
 
         - label: "PHP/MYSQL"
-          value: "75" #0-100 progress in %
+          value: "50" #0-100 progress in %
 
-        - label: "React,Vue.js / JavaScript"
-          value: "85" #0-100 progress in %
+        - label: "JS/React,Vue.js"
+          value: "70" #0-100 progress in %
 
         - label: "HTML / CSS"
-          value: "90" #0-100 progress in %
+          value: "85" #0-100 progress in %
 
     - type: "list" #skills progress type - default, dotted, circles, list
       title: "Knowledge"
