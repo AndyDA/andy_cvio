@@ -208,28 +208,40 @@ skills:
     - type: "list" #skills progress type - default, dotted, circles, list
       title: "Knowledge"
       items:
+        - label: "Developing Websites"
+          value: "" #0-100 progress in %
+
+        - label: "Web applications"
+          value: "" #0-100 progress in %
+
+        - label: "SEO & Digital Marketing"
+          value: "" #0-100 progress in %
+
+        - label: "Content Management Systems (CMS)"
+          value: "" #0-100 progress in %
+
         - label: "Website hosting"
           value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
+        - label: "Logos & Branding"
           value: "" #0-100 progress in %
 
-        - label: "Create logo design"
+        - label: "Social Media Design"
           value: "" #0-100 progress in %
 
-        - label: "Design for print"
+        - label: "Print Desing"
           value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
+        - label: "eCommerce development"
           value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
+        - label: "Social media & digital marketing"
           value: "" #0-100 progress in %
 
         - label: "Graphics and animations"
           value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
+        - label: "Promotional material for events"
           value: "" #0-100 progress in %
 
 ### Facts [ facts ]
