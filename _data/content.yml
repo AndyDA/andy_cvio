@@ -118,8 +118,8 @@ resume:
         jobs: "Project Manager"
         text: "Technology Company which focuses on e-commerce. Online bookstore for books, ebooks, music, movies & toys."
 
-      - year: "May 2000 - Present"
-        name: "DesignART S.R.L | Art Director, Founder"
+      - year: "May 2000 - 2019"
+        name: "DesignART S.R.L | Director, Founder"
         jobs: "Art Director"
         text: "Offset & Digital Products, Print Design, Business Marketing Products, Technology, Information and Internet. <br><br>Responsible for maintaining a creative culture, monitoring assigned properties to ensure consistency of creative direction, identity and quality are maintained.
 Strong ideas generation, with a commercial focus. Working Experience with printing, publishing, large format media, advertising and marketing communications companies in across EU & Moldova having anchored creative desing of magazines, news papers, directories corporate profiles, branding & marketing campaigns elements including those for events and exhibitions."
@@ -223,10 +223,16 @@ skills:
         - label: "Website hosting"
           value: "" #0-100 progress in %
 
-        - label: "Wireframing & Prototypig"
+        - label: "Wireframing & Prototyping"
           value: "" #0-100 progress in %
 
         - label: "Interaction Designs"
+          value: "" #0-100 progress in %
+
+        - label: "Stationery desing"
+          value: "" #0-100 progress in %
+
+        - label: "Business card design"
           value: "" #0-100 progress in %
 
         - label: "User Interface Designs"
@@ -247,7 +253,7 @@ skills:
         - label: "Social Media Design"
           value: "" #0-100 progress in %
 
-        - label: "Print Desing"
+        - label: "Print Design"
           value: "" #0-100 progress in %
 
         - label: "eCommerce development"
@@ -261,6 +267,13 @@ skills:
 
         - label: "Promotional material for events"
           value: "" #0-100 progress in %
+
+        - label: "Print Advertisements"
+          value: "" #0-100 progress in %
+
+        - label: "Digital | Print Marketing"
+          value: "" #0-100 progress in %
+
 
 ### Facts [ facts ]
 facts:
