@@ -5,6 +5,9 @@
 
 main:
   social:
+    - title: "Drupal"
+      icon: "fab fa-drupal"
+      url: "https://www.drupal.org/u/andyda"
     - title: "Twitter"
       icon: "fab fa-twitter"
       url: "https://twitter.com/andyDA"
