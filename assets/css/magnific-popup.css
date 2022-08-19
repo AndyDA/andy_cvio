@@ -294,7 +294,8 @@ img.mfp-img {
   padding-right: 36px; }
 
 .mfp-image-holder .mfp-content {
-  max-width: 100%; }
+  max-width: calc(100% - 90px);
+}
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
