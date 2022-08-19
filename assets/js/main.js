@@ -463,7 +463,9 @@
             closeOnContentClick: false,
             mainClass: 'mfp-fade',
             removalDelay: 160,
-            fixedContentPos: false,
+            fixedContentPos: true,
+			fixedBgPos: true,
+			overflowY: 'scroll',
             gallery: {
                 enabled: true
             }
