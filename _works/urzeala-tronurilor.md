@@ -1,5 +1,5 @@
 ---
-title: Poster "Jocurile Foamei"
+title: Poster "Urzeala Tronurilor"
 category: Graphic Design
 category_slug: f-grad
 type: image
