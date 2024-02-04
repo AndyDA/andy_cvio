@@ -11,10 +11,10 @@ about:
   To stay abreast of the ever-evolving technology landscape, I make it a part of my daily routine to immerse myself in the industry. This involves devouring technical blogs, devouring books, and absorbing the latest insights from podcasts.</p>"
   list:
     # - label: "Age"
-    #   value: "46"
+    #   value: "47"
 
     - label: "Residence"
-      value: "Romania, Moldova, Italy"
+      value: "Romania, Italy"
 
     - label: "Freelance"
       value: "Available" #nonavailable
@@ -33,6 +33,14 @@ about:
 
   download:
     text: "Download CV"
+    link: "https://www.dropbox.com/s/k06agipxn94kiz6/Resume%20-%20Andy.pdf?dl=0"
+
+  download_sec:
+    text: "Download Portofolio"
+    link: "https://www.dropbox.com/s/k06agipxn94kiz6/Resume%20-%20Andy.pdf?dl=0"
+    
+  download_third:
+    text: "Download Portofolio HQ <400Mb"
     link: "https://www.dropbox.com/s/k06agipxn94kiz6/Resume%20-%20Andy.pdf?dl=0"
 
 ### Services [ services ]
