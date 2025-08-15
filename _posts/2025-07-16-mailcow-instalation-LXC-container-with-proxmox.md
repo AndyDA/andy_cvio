@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mailcow Installation Guide for Unprivileged LXC Container with Proxmox"
-date: 2022-06-21
+date: 2025-07-16
 category:
   - Proxmox
   - Ubuntu

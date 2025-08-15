@@ -8,11 +8,13 @@ category:
 image: assets/img/blog/comparison-blog.png
 author: Andy
 tags: Drupal CMS WordPress Magento
+excerpt_separator: <!--more-->
 ---
 You can make a business survive without digital marketing. However, it will never grow to its full potential without the reach and reliability that digital marketing methods can provide. That’s why it’s so important to create a functional, beautiful website as a small business.
 
 Part of this process is choosing the right hosting platform. With so many options on the market claiming to be the best, it can be hard to make that decision.
 
+<!--more-->
 So, let’s talk about the differences between the 3 major players in that arena. WordPress vs. Drupal vs. Magento: What are the differences between them, and which one would work best for you? Here’s what you should know.
 
 #### What You Should Know About WordPress

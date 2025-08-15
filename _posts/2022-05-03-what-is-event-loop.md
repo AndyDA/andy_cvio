@@ -8,11 +8,13 @@ category:
 image: assets/img/blog/event-loop.png
 author: Andy
 tags: JavaScript 
+excerpt_separator: <!--more-->
 ---
 The event loop is what allows javascript to handle thousands and thousands of requests with just a single thread. This architecture allows Javascript and/or Node.js engines to offload operations to the system kernel.
 
 The generic explanation given above is all good but how does it actually work? We are going to talk about this later in this article but first, we need to understand how javascript works and where the need for the event loop comes in.
 
+<!--more-->
 Javascript is a single-threaded programming language. In the old days, javascript was used in browsers for basic interactive functionalities. At first, developers used Javascript for minor interactive functionalities for the websites but little did they know that javascript would become such a monster that it is today. Nowadays you can develop desktop, mobile or web applications using a programming language that no one took seriously at first. Basically, you can learn one language and be truly a full-stack developer.
 
 In this article, we are going to further discuss what an Even loop means, how it works and what are the major considerations to keep in mind. So let’s get into it.
