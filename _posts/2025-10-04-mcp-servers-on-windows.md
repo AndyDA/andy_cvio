@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting Up MCP Servers on Windows"
-date: 2025-08-12
+date: 2025-10-04
 category:
   - AI
   - MCP
