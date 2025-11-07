@@ -206,7 +206,7 @@ skills:
       title: "Languages Skills"
       items:
         - label: "English"
-          value: "60" #0-100 progress in %
+          value: "80" #0-100 progress in %
 
         - label: "Romanian"
           value: "100" #0-100 progress in %
