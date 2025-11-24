@@ -17,7 +17,7 @@ A step-by-step guide to setting up Model Context Protocol (MCP) servers for Clau
 1. Install Node.js (v18.x or later)
    - Download from: https://nodejs.org/
    - Verify installation by opening Command Prompt (CMD) and running:
-     ```cmd
+     ```bash
      node --version
      npm --version
      where node
@@ -33,7 +33,7 @@ A step-by-step guide to setting up Model Context Protocol (MCP) servers for Clau
 
 ### 1. Install Package Managers
 Open Command Prompt (CMD) as administrator and run:
-```cmd
+```bash
 # For Python-based servers
 npm install -g uv
 ```
@@ -42,7 +42,7 @@ npm install -g uv
 You have multiple options for installing and configuring servers:
 
 #### Option A: Global NPM Installation (Recommended for getting started)
-```cmd
+```bash
 # Install core servers globally
 npm install -g @modelcontextprotocol/server-filesystem
 npm install -g @modelcontextprotocol/server-memory
@@ -88,7 +88,7 @@ For locally developed or modified servers, point directly to their dist files:
 Some MCP servers are Python-based and require different installation steps. Here's how to set them up:
 
 #### Fetch Server
-```cmd
+```bash
 # Install the fetch server using pip
 pip install mcp-server-fetch
 
@@ -170,7 +170,7 @@ The fetch server provides web content fetching capabilities and converts HTML to
 ## Verification & Troubleshooting
 
 ### Verify Installations
-```cmd
+```bash
 # List installed packages
 npm list -g --depth=0
 
