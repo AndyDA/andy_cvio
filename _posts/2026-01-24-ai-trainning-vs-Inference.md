@@ -5,14 +5,13 @@ date: 2026-01-24
 category: 
   - AI
   - Machine Learning
-image: assets/img/blog/ai-training-vs-inference.svg
 author: Andy
-tags: AI "Machine Learning"
+tags: AI
 excerpt_separator: <!--more-->
 ---
 Artificial intelligence relies on two fundamental phases: **training** and **inference**. Although they work together, they serve very different purposes. Training teaches a model how to think, while inference is the moment the model actually uses what it has learned.
 
----
+<!--more-->
 
 ## 🧠 **What Is AI Inference?**
 
