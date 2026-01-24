@@ -10,9 +10,7 @@ tags: AI
 excerpt_separator: <!--more-->
 ---
 Artificial intelligence relies on two fundamental phases: **training** and **inference**. Although they work together, they serve very different purposes. Training teaches a model how to think, while inference is the moment the model actually uses what it has learned.
-
 <!--more-->
-
 ## 🧠 **What Is AI Inference?**
 
 AI inference is the stage where a trained model applies its knowledge to **new, unseen data** and produces predictions, classifications, or decisions.
