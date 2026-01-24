@@ -6,6 +6,8 @@
 *	Copyright © Cvio by beshleyua. All Rights Reserved.
 **/
 
+@use "cvio/setting" as *;
+
 /* TABLE OF CONTENTS
 	- Basic
 	- Preloader
@@ -33,11 +35,11 @@ body {
 	margin: 0;
 	padding: 0;
 	border: none;
-	font-family: $default_font;
-	font-size: $default_size;
-	line-height: $line_height;
-	color: $default_color;
-	background: $default_bg;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #bbb;
+	background: #101010;
 	letter-spacing: 0;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
@@ -62,7 +64,7 @@ body.scroll_hidden {
 .cursor-follower {
 	margin: -13px 0 0 -13px;
 	position: absolute;
-	background: $active_color;
+	background: #4bffa5;
 	width: 26px;
 	height: 26px;
 	-webkit-transition: transform 1s cubic-bezier(0.02, 1.2, 0.8, 1), opacity 0.25s ease;
@@ -70,7 +72,7 @@ body.scroll_hidden {
 	opacity: 0.4;
 	z-index: 1111;
 	pointer-events: none;
-	@include border-radius(50%);
+	border-radius: 50%;
 }
 
 .cursor-follower.hide {
@@ -249,8 +251,8 @@ body.scroll_hidden {
 	top: 0;
 	width: 1px;
 	height: 0%;
-	background: $lines_color;
-	@include transition(height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
+	background: rgba(255,255,255,0.07);
+	transition: height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
 }
 
 .lines .line-col:after {
@@ -260,9 +262,9 @@ body.scroll_hidden {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: $extra_bg;
+	background: #1E1E1E;
 	z-index: 12;
-	@include transition(height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
+	transition: height 1s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
 }
 
 .lines.finish .line-col:before {
@@ -366,7 +368,7 @@ h4,
 h5,
 h6 {
 	font-weight: 700;
-	font-family: $default_font;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -398,7 +400,7 @@ h6 {
 }
 
 p {
-	font-size: $default_size;
+	font-size: 16px;
 	padding: 0;
 	margin: 30px 0;
 }
@@ -433,28 +435,28 @@ strong {
 
 /* - Links */
 a {
-	color: $light_color;
+	color: #eee;
 	text-decoration: underline;
 	outline: none;
 }
 
 a:hover {
 	text-decoration: none;
-	color: $active_color;
+	color: #4bffa5;
 }
 
 /* Animate Button Hover */
 .ink {
 	display: block;
 	position: absolute;
-	background: $active_color;
-	@include transform(scale(0));
-	@include transition(transform 2s cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
-	@include border-radius(100%);
+	background: #4bffa5;
+	transform: scale(0);
+	transition: transform 2s cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
+	border-radius: 100%;
 }
 
 .ink.ink-animate {
-	@include transform(scale(3));
+	transform: scale(3);
 }
 
 .hover-animated .circle {
@@ -489,14 +491,14 @@ a.btn,
 	height: 44px;
 	line-height: 40px;
 	text-align: center;
-	font-size: $default_size;
-	color: $active_color;
+	font-size: 16px;
+	color: #4bffa5;
 	font-weight: 500;
 	text-decoration: none;
 	background: none;
-	border: 2px solid $active_color;
+	border: 2px solid #4bffa5;
 	cursor: pointer;
-	@include transition(1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s);
+	transition: 1s all cubic-bezier(0.165, 0.85, 0.45, 1) 0s;
 }
 
 a.btn .lnk,
@@ -510,12 +512,12 @@ a.btn .lnk,
 
 a.btn:hover,
 .btn:hover {
-	color: $default_bg;
+	color: #101010;
 }
 
 @media screen and (max-width: 720px) {
 	a.btn, .btn, .single-post-text input[type="submit"] {
-		font-size: $small_size;
+		font-size: 14px;
 	}
 }
 
@@ -530,27 +532,27 @@ input,
 textarea,
 button {
 	display: block;
-	font-family: $default_font;
-	font-size: $default_size;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 	height: 50px;
 	width: 100%;
-	color: $light_color;
+	color: #eee;
 	margin-bottom: 30px;
 	padding: 0;
 	background: none;
 	border: none;
-	border-bottom: 1px solid $lines_color;
+	border-bottom: 1px solid rgba(255,255,255,0.07);
 	resize: none;
 	outline: 0;
-	@include border-radius(0%);
-	@include transition(all 0.3s ease 0s);
+	border-radius: 0%;
+	transition: all 0.3s ease 0s;
 }
 
 input:focus,
 textarea:focus,
 button:focus {
-	color: $light_color;
-	border-bottom: 1px solid $light_color;
+	color: #eee;
+	border-bottom: 1px solid #eee;
 }
 
 textarea {
@@ -564,20 +566,20 @@ button {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	border-bottom: 1px solid $light_color;
+	border-bottom: 1px solid #eee;
 	cursor: pointer;
-	color: $light_color;
+	color: #eee;
 }
 
 button:hover {
-	border-bottom: 1px solid $active_color;
+	border-bottom: 1px solid #4bffa5;
 }
 
 label,
 legend {
 	display: block;
 	padding-bottom: 10px;
-	font-family: $default_font;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 }
 
@@ -631,7 +633,7 @@ input.error,
 textarea.error,
 input.wpcf7-not-valid,
 textarea.wpcf7-not-valid {
-	border-bottom: 1px solid $error_color !important;
+	border-bottom: 1px solid red !important;
 }
 
 label.error,
@@ -643,28 +645,28 @@ input.error::-moz-placeholder,
 textarea.error::-moz-placeholder,
 input.wpcf7-not-valid::-moz-placeholder,
 textarea.wpcf7-not-valid::-moz-placeholder {
-	color: $error_color;
+	color: red;
 }
 
 input.error:-moz-placeholder,
 textarea.error:-moz-placeholder,
 input.wpcf7-not-valid:-moz-placeholder,
 textarea.wpcf7-not-valid:-moz-placeholder {
-	color: $error_color;
+	color: red;
 }
 
 input.error:-ms-input-placeholder,
 textarea.error:-ms-input-placeholder,
 input.wpcf7-not-valid:-ms-input-placeholder,
 textarea.wpcf7-not-valid:-ms-input-placeholder {
-	color: $error_color;
+	color: red;
 }
 
 input.error::-webkit-input-placeholder,
 textarea.error::-webkit-input-placeholder,
 input.wpcf7-not-valid::-webkit-input-placeholder,
 textarea.wpcf7-not-valid::-webkit-input-placeholder {
-	color: $error_color;
+	color: red;
 }
 
 div.wpcf7-response-output {
@@ -770,7 +772,7 @@ pre {
 }
 
 mark, ins {
-	background: $light_color;
+	background: #eee;
 	text-decoration: none;
 }
 
@@ -792,10 +794,10 @@ table caption {
 th {
 	color: #999;
 	padding: 10px 20px;
-	font-size: $extra_small_size;
+	font-size: 12px;
 	font-weight: 700;
 	text-align: left;
-	border: 4px solid $white_color;
+	border: 4px solid #FFF;
 	text-transform: uppercase;
 }
 

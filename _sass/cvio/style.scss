@@ -1,4 +1,6 @@
 /* _sass/_post.css */
+@use "cvio/setting" as *;
+
   pre.highlight > button:active,
   pre.highlight > button:focus {
     opacity: 1;

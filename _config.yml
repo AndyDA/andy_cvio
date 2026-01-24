@@ -30,9 +30,6 @@ date_format: "%d %B %Y"
 twitter_username: andyDA
 github_username: AndyDA
 
-# paginations & permalinks
-paginate: 9
-paginate_path: "/blog/page:num/"
 permalink: pretty
 
 # disqus comments
@@ -61,9 +58,17 @@ jekyll-archives:
 # Build settings
 plugins:
   - jekyll-archives
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-seo-tag
+
+# Pagination Settings for jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: "/blog/page:num/"
+  sort_field: "date"
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

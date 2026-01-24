@@ -2,8 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "cvio/setting",
-  "cvio/basic",
-  "cvio/layout",
-  "cvio/style"
+@use "cvio/setting" as setting;
+@use "cvio/basic" as basic;
+@use "cvio/layout" as *;
+@use "cvio/style" as *;
