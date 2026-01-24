@@ -1,9 +1,9 @@
 ---
 layout: post
-title: AI Inference vs. AI Training: Understanding the Difference
+title: "AI Training vs. Inference: Understanding the Difference"
 date: 2026-01-24 09:00:00 +0800
-categories: [AI, Machine Learning, Deep Learning]
-tags: [AI, Training, Inference, Machine Learning, Deep Learning, Model Deployment]
+categories: [AI, Machine Learning]
+tags: [AI, Training, Inference, Machine Learning, Deep Learning, Model Deployment, LLM, GPU, AI Concepts]
 ---
 Artificial intelligence relies on two fundamental phases: **training** and **inference**. Although they work together, they serve very different purposes. Training teaches a model how to think, while inference is the moment the model actually uses what it has learned.
 
@@ -14,10 +14,10 @@ Artificial intelligence relies on two fundamental phases: **training** and **inf
 AI inference is the stage where a trained model applies its knowledge to **new, unseen data** and produces predictions, classifications, or decisions.
 
 - A self-driving car recognizing a stop sign on a road it has never traveled before  
-- A predictive model estimating an athlete’s future performance based on historical data  
+- A predictive model estimating an athlete's future performance based on historical data  
 - A language model interpreting and responding to a sentence it has never encountered  
 
-Inference is the “action phase” of AI — the model is no longer learning; it is **performing**.
+Inference is the "action phase" of AI—the model is no longer learning; it is **performing**.
 
 ---
 
@@ -28,7 +28,7 @@ Training is the process that enables a model to eventually make accurate inferen
 - The model is fed large datasets (structured or unstructured)  
 - It learns patterns, correlations, and relationships  
 - Developers may fine‑tune the model by correcting early mistakes  
-- Some models require labeled examples; others (like deep learning systems) learn from raw data  
+- Some models require labeled examples, while others (like deep learning systems) learn from raw data  
 
 For example, to recognize stop signs, a model might be shown millions of images from different angles, lighting conditions, and environments. Over time, it learns the essential features that define a stop sign.
 
@@ -41,7 +41,7 @@ For example, to recognize stop signs, a model might be shown millions of images 
 | **Purpose** | Teach the model | Use the model |
 | **Data** | Large datasets, often labeled | New, unseen inputs |
 | **Compute Cost** | Very high, but usually one‑time | Lower per request, but continuous |
-| **Output** | Improved model accuracy | Predictions or decisions |
+| **Output** | An improved model | Predictions or decisions |
 | **Frequency** | Occasional (initial + fine‑tuning) | Constant during real‑world use |
 
 ---
@@ -51,7 +51,7 @@ For example, to recognize stop signs, a model might be shown millions of images 
 AI inference powers nearly every practical AI application:
 
 - **Large language models** interpreting new prompts  
-- **Predictive analytics** forecasting trends or outcomes  
+- **Predictive analytics** for forecasting trends or outcomes  
 - **Email filtering systems** identifying spam or malicious messages  
 - **Autonomous vehicles** detecting objects and making driving decisions  
 - **Scientific research** analyzing complex datasets  
