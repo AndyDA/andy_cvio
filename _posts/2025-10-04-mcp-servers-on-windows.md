@@ -10,7 +10,6 @@ author: Andy
 tags: MCP AI Server
 excerpt_separator: <!--more-->
 ---
-# Setting Up MCP Servers on Windows
 A step-by-step guide to setting up Model Context Protocol (MCP) servers for Claude Desktop on Windows.
 <!--more-->
 ## Prerequisites
