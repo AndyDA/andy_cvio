@@ -5,6 +5,7 @@ date: 2026-01-24
 category: 
   - AI
   - Machine Learning
+image: assets/img/blog/training-vs-inference.png
 author: Andy
 tags: AI
 excerpt_separator: <!--more-->
