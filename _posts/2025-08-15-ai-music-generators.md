@@ -6,7 +6,10 @@ category:
   - AI
 image: assets/img/blog/ai-music-generator.jpg
 author: Andy
-tags: music AI GenerativeAI MusicGeneration Songs
+tags: 
+ - AI 
+ - Generative AI 
+ - Music Generation
 excerpt_separator: <!--more-->
 ---
 Marketing teams have long relied on multimedia content to promote their products, whether that’s an engaging video for a product launch campaign, a podcast exploring customer stories, or background music for TikTok and Instagram Reels.
