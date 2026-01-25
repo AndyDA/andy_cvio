@@ -1,0 +1,32 @@
+[build]
+  # Base directory (root by default)
+  base = "/"
+  
+  # Publish directory where Jekyll outputs files
+  publish = "_site/"
+  
+  # Build command with verbose logging for debugging
+  command = "bundle exec jekyll build --verbose --trace"
+  
+  # Environment variables for the build
+  [build.environment]
+    # Explicitly set Ruby version to match .ruby-version
+    RUBY_VERSION = "3.4.4"
+    
+    # Set production environment
+    JEKYLL_ENV = "production"
+    
+    # Force Bundler to use specific version
+    BUNDLER_VERSION = "2.6.7"
+
+# Production context settings
+[context.production]
+  command = "bundle exec jekyll build --verbose --trace"
+
+# Deploy preview context settings
+[context.deploy-preview]
+  command = "bundle exec jekyll build --verbose --trace"
+
+# Branch deploy context settings
+[context.branch-deploy]
+  command = "bundle exec jekyll build --verbose --trace"
