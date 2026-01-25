@@ -5,8 +5,9 @@
   # Publish directory where Jekyll outputs files
   publish = "_site/"
   
-  # Build command with verbose logging for debugging
-  command = "bundle exec jekyll build --verbose --trace"
+  # Build command with bundle install to ensure gems are installed
+  # The cache binstubs are stale, so we need to install dependencies first
+  command = "bundle install && bundle exec jekyll build --verbose --trace"
   
   # Environment variables for the build
   [build.environment]
@@ -21,12 +22,12 @@
 
 # Production context settings
 [context.production]
-  command = "bundle exec jekyll build --verbose --trace"
+  command = "bundle install && bundle exec jekyll build --verbose --trace"
 
 # Deploy preview context settings
 [context.deploy-preview]
-  command = "bundle exec jekyll build --verbose --trace"
+  command = "bundle install && bundle exec jekyll build --verbose --trace"
 
 # Branch deploy context settings
 [context.branch-deploy]
-  command = "bundle exec jekyll build --verbose --trace"
+  command = "bundle install && bundle exec jekyll build --verbose --trace"
