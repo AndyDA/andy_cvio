@@ -7,10 +7,10 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.3"
-# Add the csv gem to handle Ruby 3.4.0+ default gem changes
+gem "jekyll", "~> 4.4"
+# csv and base64 are now runtime dependencies of Jekyll 4.4+
+# kept here explicitly for clarity and Ruby 3.4+ compatibility
 gem "csv"
-# Add the base64 gem to handle Ruby 3.4.0+ default gem changes
 gem "base64"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
